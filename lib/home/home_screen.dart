@@ -68,18 +68,18 @@ class HomeScreen extends StatelessWidget {
                 },
                 child: const Text('Record Video'),
               ),
-              ElevatedButton(
-                onPressed: () async {
-                CameraService service =  CameraService();
-                await service.initCamera();
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => CameraWidget(service:service),
-                    ),
-                  );
-                },
-                child: const Text('Record Video'),
-              ),
+              // ElevatedButton(
+              //   onPressed: () async {
+              //   CameraService service =  CameraService();
+              //   await service.initCamera();
+              //     Navigator.of(context).push(
+              //       MaterialPageRoute(
+              //         builder: (context) => CameraWidget(service:service),
+              //       ),
+              //     );
+              //   },
+              //   child: const Text('Record Video'),
+              // ),
             ],
           ),
         );
