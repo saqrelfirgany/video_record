@@ -1,8 +1,10 @@
+import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:misk_task/camera/camera_widget.dart';
 import 'package:misk_task/services/camera_service.dart';
 
+import '../camera_screen/camera_screen.dart';
 import 'body/upload_list_item.dart';
 import 'controller/upload_cubit.dart';
 import 'controller/upload_state.dart';
@@ -58,11 +60,10 @@ class HomeScreen extends StatelessWidget {
               ),
               ElevatedButton(
                 onPressed: () async {
-                CameraService service =  CameraService();
-                await service.initCamera();
+                  await availableCameras();
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => CameraWidget(service:service),
+                      builder: (context) => CameraScreen(),
                     ),
                   );
                 },
