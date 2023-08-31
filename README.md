@@ -26,8 +26,8 @@
 
 # Screenshot's
 
-![](Screenshot/Screenshot_2023-08-31-04-08-12.png)
-![](Screenshot/Screenshot_2023-08-31-04-08-24.png)
-![](Screenshot/Screenshot_2023-08-31-04-08-47.png)
-![](Screenshot/Screenshot_2023-08-31-04-09-06.png)
+![](Screenshot/Screenshot_2023-08-31-04-08-12.jpg)
+![](Screenshot/Screenshot_2023-08-31-04-08-24.jpg)
+![](Screenshot/Screenshot_2023-08-31-04-08-47.jpg)
+![](Screenshot/Screenshot_2023-08-31-04-09-06.jpg)
 
